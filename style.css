@@ -1,0 +1,55 @@
+button{
+    background-color: coral;
+    color: aqua;
+}
+a{
+    color: aqua;
+}
+h1{
+    color: white;
+}
+body{
+    background-image: url('bimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+table{
+    color: white;
+}
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      height: 100%  ;
+    }
+  }
+  /* Add a black background color to the top navigation */
+.topnav {
+    background-color:#04AA6D;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  button{
+    border-radius: 12px;
+     padding: 14px 40px;
+  }

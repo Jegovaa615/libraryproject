@@ -1,0 +1,11 @@
+h1{
+    color: white;
+}
+body{
+    background-image: url('bimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    color: white;
+}
